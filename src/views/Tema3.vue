@@ -5,7 +5,24 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Competencia y competitividad 
+
+    separador
+    #t_1_1.titulo-segundo.color-primario
+      h2 3.1 La diferenciación en el sector 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 

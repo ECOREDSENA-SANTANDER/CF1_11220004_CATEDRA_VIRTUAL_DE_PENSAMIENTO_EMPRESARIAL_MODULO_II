@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Gestión estratégica de proyectos: de la planeación a la competitividad.',
+    descripcionCurso:
+      'Este componente formativo profundiza en el proceso de la gestión de proyectos alineados con la planeación estratégica de la empresa. A través de la identificación del problema, la estructura del proyecto y la competitividad en el sector, se desarrollan habilidades para formular proyectos eficaces, siguiendo lineamientos y normas que impulsan la competitividad y el éxito organizacional.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,12 +33,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptualización del proyecto',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Identificación y planteamiento del problema',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +47,41 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La empresa',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'La planeación estratégica en la empresa',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Competencia y competitividad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'La diferenciación en el sector',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Estructura del proyecto en la empresa',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Alcance del proyecto',
+            hash: 't_4_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -116,17 +145,60 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Competencias',
+      significado:
+        'Conocimientos, habilidades, actitudes y valores que están asociados con un desempeño superior dentro de la organización. Estas engloban aspectos técnicos y organizacionales, y deben tener definiciones operacionales, así como conductas observables.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Emprendimiento',
+      significado:
+        'Ideas aplicadas a generar riqueza a partir de las oportunidades que se detectan en el entorno. Estas ideas se canalizan a través de planes de negocio y requieren verdaderos líderes con visión que las concreten en empresa.',
+    },
+    {
+      termino: 'Empresa',
+      significado:
+        'Según el Código de Comercio de Colombia, una empresa es “toda actividad económica organizada para la producción, transformación, comercialización, administración o custodia de bienes o para la prestación de servicios” (Decreto 410 de 1971, Art. 25).',
+    },
+    {
+      termino: 'Innovación',
+      significado:
+        'La innovación es la aplicación de nuevas técnicas, procesos productivos, productos o servicios para el mercado. Las innovaciones exitosas pueden darse: al producir los mismos bienes, pero con la utilización de menos recursos, o al producir bienes nuevos o de mejor calidad.',
+    },
+    {
+      termino: 'Plan de mejoramiento',
+      significado:
+        'Acciones encaminadas a corregir desviaciones cuando éstas son identificadas, previa aplicación de un indicador de gestión.',
+    },
+    {
+      termino: 'Plan estratégico',
+      significado:
+        'Documento que refleja los lineamientos y la estrategia a seguir por la empresa en el mediano plazo. Se establece para vigencias aproximadas de 3 años, pero puede oscilar entre 1 y 5 años.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Asensio del Aco, E., & Vazquez,B. (2016). Empresa e Iniciativa Emprendedora. Madrid. España: Paraninfo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Montero Moreno, C. (2014). Modelos Prácticos de Administración de Riegos. México: Ediciones Fiscales ISEF.',
+      link: '',
+    },
+    {
+      referencia:
+        'Puchol, L. (2012). Dirección y Gestión de Recursos Humanos. Madrid-Buenos Aires-México: Díaz de Santos.',
+      link: '',
+    },
+    {
+      referencia:
+        'Veiga, J.F.C. (2015). La Gestión Financiera de la Empresa. Madrid: Esic Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Salazar, I.P. (2010). Guía Práctica para la identificación, formulación y evaluación de proyectos. Bogotá. Editorial Universidad del Rosario.',
       link: '',
     },
   ],
@@ -140,10 +212,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -151,10 +222,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jaime Cuellar',
+          cargo: 'Experto temático',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Santiago Lozada Garcés',
+          cargo: 'Líder línea de producción',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Santander - Centro Industrial de Mantenimiento Integral',
+        },
+        {
+          nombre: 'Rosa Elvia Quintero Guasca',
+          cargo: 'Asesora Pedagógica',
+          centro:
+            'Regional Santander - Centro Industrial de Mantenimiento Integral',
+        },
+        {
+          nombre: 'Luis Orlando Beltrán Vargas',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial de Mantenimiento Integral',
         },
       ],
     },
@@ -162,28 +250,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de contenidos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Pedro Alonso Bolivar Gonzalez',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -191,29 +270,15 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validador de recursos educativos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Diana Lizeth Lozada Díaz',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
       ],
     },
   ],
