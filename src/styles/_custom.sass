@@ -42,6 +42,9 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span 
     color: black
 
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+    color: black
+
 
 .img-t
   width: auto
@@ -52,13 +55,21 @@
 
 .bg1
   background-color: #FA6D61
-
+  border-radius: 15px
+  &:hover
+    background-color: #4B96E3
 .bg2
   background-color: #6B8BE8
   border-radius: 15px
 .bg3
   background-color: #FFBE01
   border-radius: 10px
+
+.bg4
+  background-color:#FA6D61
+  border-radius: 10px
+
+
 
 .fa-plus:before 
     content: "\f067"
@@ -74,8 +85,7 @@
 .peq
   font-size: 14.6px
 
-.h-100
-  height: 50px
+
 
 
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
@@ -83,19 +93,6 @@
 
 .tarjeta--gris 
     background-color: #8AB2EE
-
-
-.bloque-texto-f.color-acento-contenido:before 
-    background-color: #C4D8F6
-
-.bloque-texto-f:before 
-    content: ''
-    display: block
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 50px
 
 
 
@@ -140,7 +137,7 @@
     content: ""
     display: block
     height: 4px
-    width: 300px
+    width: 370px
     background-color: #FA6D61
     border-radius: 50px
 
@@ -154,8 +151,204 @@
   background-size: 100% 100%
   background-position: center 
 
-.bg-7
-  background-color: #4B96E3 
+.img-infografica.color-acento-contenido .img-infografica__item__numero, .img-infografica-b.color-acento-contenido .img-infografica__item__numero 
+    color: black
 
-.bg-77
+.text-black
+  color: black !important
+  font-weight: 700
+
+
+.img-infografica.color-acento-contenido .img-infografica__item__dot:before, .img-infografica.color-acento-contenido .img-infografica__item__dot:after, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:after 
+    background-color: #F5F7F9
+    opacity: -1
+
+
+
+
+
+.titulo1
   background-color: #007DFE
+  width: fit-content
+  padding: 5px 14px
+  position: relative 
+
+.titulo
+  background-color: #4B96E3
+  width: fit-content
+  padding: 5px 14px
+  position: relative 
+
+.bg5
+  background-color: #FA6D61
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema3/der.svg')
+
+.fa-chevron-left:before 
+    content: url('../assets/curso/tema3/izq.svg')
+
+.tarjeta--slyder
+  background: url('../assets/curso/tema3/fon.svg')
+  background-size: 100%
+  background-repeat: no-repeat
+
+
+.bg7
+  background-color: #4B96E3
+
+.bg8
+  background-color: white
+  border-radius: 18px
+
+
+.tarjeta-numerada.color-secundario .tarjeta-numerada__numero 
+    border: solid #FA6D61 7px
+    background-color: #fff
+
+.tarjeta-numerada__numero 
+    border-radius: 60px
+    width: 45px
+    height: 45px
+    display: block
+    position: absolute
+    left: -3px
+    top: 20px
+    transform: translateX(-50%)
+
+.tarjeta-numerada 
+    border: solid 4px
+    border-radius: 20px
+    position: relative
+    margin-left: 30px
+
+.tarjeta-numerada.color-secundario .tarjeta-numerada__numero div 
+  color: #12263F
+  
+.tarjeta-numerada.color-secundario .h2
+  font-size: 1.3em  
+
+.tarjeta-numerada.color-secundario.h
+    border-color: #FFBE01
+
+.tarjeta-numerada.color-secundario.l
+    border-color: #FA6D61
+
+
+.bg9
+  background-color: #EFCA29
+  border-radius: 5px
+
+.bg10
+  background-color: #FFBE01
+  border-radius: 5px
+
+
+.fondo1
+  background: url('../assets/curso/tema4/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.cont_5_1, .cont_5_1 *
+  position: relative
+.cont_5_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 70%
+  top: 15%
+  bottom: 15%
+  left: -15%
+  background-size: 100% 100%
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #8AB2EE!important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+.colt
+  background-color: #007DFE
+
+
+.tarjeta--slyder.b1
+  background: url('../assets/curso/tema4/fond.png')
+  background-size: 100%
+  background-repeat: no-repeat
+
+.th
+  background-color: #F6F6F6
+
+.td
+  background-color: #ffffff
+
+.tabla-b td, .tabla-c td, .tabla-b th, .tabla-c th 
+    padding: 20px 22px
+    font-size: 1em
+
+
+.bga
+  background-color: #E8F0FC
+  border-radius: 8px 0 0 0
+  position: relative 
+.bgb
+  background-color: #FEE2DF
+  position: relative
+.bgc
+  background-color: #E8F0FC
+  position: relative
+.bgd
+  background-color: #FEE2DF
+  border-radius: 0 0 0 8px
+  position: relative
+
+.sob
+  margin-left: -20% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-right: 0px
+
+@media (min-width: 992px) 
+    .pe-lg-5 
+        padding-right: 13rem !important
+    
+.wid
+    margin: 0
+    width: 130%
+    max-width: 130%
+
+.mov
+  position: absolute
+  left: 80%
+
+.move
+  position: absolute
+  left: 50%
+  font-size: 12px
+
+.bloque-texto-b.color-secundario:before 
+    background-color: #C4D8F6
+
+.bloque-texto-b:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 7%
+    bottom: -18px
+    left: 13%
+    right: 50px

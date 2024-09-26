@@ -7,38 +7,28 @@
         span 2
       h1 La empresa 
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-5
         p.mb-0 De acuerdo con el Código de Comercio de Colombia, una empresa se define como “toda actividad económica organizada para la producción, transformación, comercialización, administración o custodia de bienes o para la prestación de servicios” (Decreto 410 de 1971, Art. 25). Proponiendo así, las bases para entender la empresa como una entidad estructurada que organiza sus recursos y capacidades para ofrecer bienes o servicios, bajo un marco legal y económico establecido. 
-          
+    
     p.mb-4 El proceso de estructuración de una empresa es una tarea esencial, que debe estar alineada con los objetivos estratégicos que guiarán su operación. Estos objetivos son fundamentales, ya que determinan: 
     
-    .row.justify-content-center(data-aos="fade-down")
-      .col-lg-10.mb-3
-        .row.justify-content-center(data-aos="fade-down")
-          .col-md-6.col-lg.col-6.mb-3
-            .tarjeta-avatar
-              img.img-a.img-t(src='@/assets/curso/tema2/img6.svg' alt='')
-              .tarjeta.bg1
-                .p-4
-                  h3.text-center.text-white.my-2.mb-0 Lo que la empresa desea alcanzar. 
-              
-          .col-md-6.col-lg.col-6.mb-3
-            .tarjeta-avatar
-              img.img-a.img-t(src='@/assets/curso/tema2/img7.svg' alt='')
-              .tarjeta.bg1
-                .p-4
-                  h3.text-center.text-white.my-2.mb-0 La dirección en la que debe avanzar  
-              
-          .col-md-6.col-lg.mb-3
-            .tarjeta-avatar
-              img.img-a.img-t(src='@/assets/curso/tema2/img8.svg' alt='')
-              .tarjeta.bg1
-                .p-4
-                  h3.text-center.text-white.my-2.mb-3 Cómo los colaboradores aportarán al éxito de la organización.  
+    .row.justify-content-center.mb-3
+      .col-lg-3.col-md-6.mb-4
+        .overflow-hidden.h-100.bg1.p-4
+          img.img-a.img-t.mb-4(src='@/assets/curso/tema2/img6.svg', alt='')
+          h5.text-center Lo que la empresa desea alcanzar.  
+      .col-lg-3.col-md-6.mb-4
+        .overflow-hidden.h-100.bg1.p-4
+          img.img-a.img-t.mb-4(src='@/assets/curso/tema2/img7.svg', alt='')
+          h5.text-center La dirección en la que debe avanzar  
+      .col-lg-3.col-md-6.mb-4
+        .overflow-hidden.h-100.bg1.p-4
+          img.img-a.img-t.mb-4(src='@/assets/curso/tema2/img8.svg', alt='')
+          h5.text-center Cómo los colaboradores aportarán al éxito de la organización.  
     
     p.mb-4 Esta tarea debe realizarse con responsabilidad y compromiso por parte de todos los miembros de la empresa, ya que es a partir de estos objetivos que se definirá la misión y la visión de la entidad. 
     p.mb-4 La misión y la visión no solo deben ser inspiradoras, sino que deben reflejar los valores organizacionales, convirtiéndose en el motor que impulse el quehacer diario de la empresa. Estos elementos son fundamentales para alinear a los colaboradores en torno a una misma meta y asegurar que todos trabajen con un propósito claro y compartido. Por lo tanto, el tiempo dedicado a la definición de la misión y la visión debe considerarse una inversión clave para el éxito a largo plazo de la empresa.
@@ -50,39 +40,39 @@
           h5 Figura 1.
           | Proceso estrategia empresarial 
 
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center
           .col-lg-3.mb-2
-            .bg2.p-3
-              h5.text-white.text-center.my-2 Establecer la misión, la visión y los valores organizacionales.
+            .bg4.p-3
+              p.text-center.my-3 Establecer la misión, la visión y los valores organizacionales.
           .col-lg-1.mb-2
             .bgt1
-          .col-lg-3.mb-2
-            .bg2.p-3
-              h5.text-white.text-center.mb-0 Desarrollar un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio.
+          .col-lg-3.mb-2.ps-lg-2
+            .bg4.p-3
+              p.text-center.mb-0.my-2 Desarrollar un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio.
           .col-lg-1.mb-2
             .bgt2
-          .col-lg-4.mb-2
-            .bg2.p-3
-              h5.text-white.text-center.mb-1.my-2 - Atracción y retención de clientes.
-              h5.text-white.text-center.mb-1 - Mejora en la competitividad.
-              h5.text-white.text-center.mb-1 - Mayor satisfacción en el mercado.
+          .col-lg-4.mb-2.ps-lg-2
+            .bg4.p-3
+              p.text-center.mb-2.my-3 - Atracción y retención de clientes.
+              p.text-center.mb-1 - Mejora en la competitividad.
+              p.text-center.mb-1 - Mayor satisfacción en el mercado.
     
     p.mb-4 La estrategia empresarial no es simplemente un conjunto de decisiones aisladas, sino un plan coherente que involucra todas las áreas de la organización, como:
     
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
-          | Definición de la estrategia empresarial. 
+          | Definición de la estrategia empresarial
 
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center
           .col-lg-7.mb-4
             img.img-a.img-t(src='@/assets/curso/tema2/img9.svg', alt='tema1')
           .col-lg-5.mb-4
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
                 img.img-a.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema2/img2.svg', alt='tema1')
-                p.mb-3 Cada empresa desarrolla sus propias estrategias para alcanzar sus metas específicas y cumplir con los objetivos trazados.  
+                p.mb-3 Cada empresa formula sus propias estrategias en función de: 
                 ul.lista-ul.ps-0
                   li.d-flex.mb-1
                     i.fas.fa-plus
@@ -95,10 +85,10 @@
                     p.mb-0 Sus políticas de gestión.
                   li.d-flex.mb-1
                     i.fas.fa-plus
-                    p.mb-0 Su entorno, etc.	
+                    p.mb-0 El entorno en el que opera.  	
     
     p.mb-4 Estos factores hacen que cada plan estratégico sea único, aunque puedan compartir puntos en común con otras organizaciones. La estrategia, en esencia, es el mapa que guía a la empresa hacia el cumplimiento de sus objetivos, integrando a todos los departamentos en la consecución de metas comunes. 
-    p.mb-4 Las políticas y los procedimientos organizacionales, especialmente aquellos formulados desde la alta gerencia, juegan un papel determinante en la ejecución del plan estratégico. Cuando están bien diseñados y alineados con la estrategia, facilitan su implementación y el logro de los objetivos propuestos. Por el contrario, si no están bien estructurados, pueden convertirse en barreras que dificulten el avance de la empresa. Estos lineamientos son la brújula que orienta a la empresa, y deben ser conocidos, apropiados y ejecutados por todos los niveles de la organización para asegurar el éxito. 
+    p.mb-4 Las políticas y los procedimientos organizacionales, especialmente aquellos formulados desde la alta gerencia, juegan un papel determinante en la ejecución del plan estratégico. Cuando están bien diseñados y alineados con la estrategia, facilitan su implementación y el logro de los objetivos propuestos. Por el contrario, si no están bien estructurados, pueden convertirse en barreras que dificulten el avance de la empresa. Estos lineamientos son la brújula que orienta a la empresa, y deben ser conocidos, apropiados y ejecutados por todos los niveles de la organización para asegurar el éxito.  
     p.mb-5 La empresa, como organización estructurada, tiene como objetivo principal la comercialización de productos o servicios. En este contexto, el mercadeo y la innovación se convierten en funciones esenciales para mantener la competitividad y relevancia en el mercado. Para cumplir con estos objetivos, la empresa debe estar conformada por:  
     
     .row.justify-content-center.align-items-center.mb-4
@@ -114,24 +104,23 @@
     
     p.mb-0 En conclusión, se destaca la estructuración y operación de una empresa como un proceso complejo que requiere de una planificación cuidadosa y una ejecución coordinada. Cada elemento de la empresa debe estar alineado con la estrategia general, para asegurar que los objetivos se cumplan y la empresa pueda mantenerse competitiva en un entorno cambiante. 
 
-
     separador
     #t_1_1.titulo-segundo.color-primario
       h2 2.1 La planeación estratégica en la empresa 
   
     p.mb-4 La planeación estratégica es un proceso estructurado y sistematizado que parte desde la dirección de la empresa, cuyo propósito principal es implementar planes que faciliten el logro de los objetivos organizacionales. Este enfoque permite a las empresas no solo establecer una visión clara hacia el futuro, sino también diseñar estrategias eficaces que guíen las actividades diarias y aseguren la competitividad en el mercado. La planeación estratégica es esencial para la supervivencia y el crecimiento de cualquier organización, y su importancia radica en que proporciona una hoja de ruta que alinea a todos los miembros de la empresa en torno a un objetivo común.  
-    p.mb-5 La planeación estratégica es inherente a la dirección de la empresa. Los directivos, como responsables del rumbo de la organización, deben conocer profundamente este proceso y ser capaces de desarrollarlo con habilidad. La falta de una acción sistemática en la planeación estratégica puede llevar a la empresa por un camino de incertidumbre y potencial incompetencia. 
+    p.mb-4 La planeación estratégica es inherente a la dirección de la empresa. Los directivos, como responsables del rumbo de la organización, deben conocer profundamente este proceso y ser capaces de desarrollarlo con habilidad. La falta de una acción sistemática en la planeación estratégica puede llevar a la empresa por un camino de incertidumbre y potencial incompetencia. 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.mb-5.mb-lg-0
+        .bloque-texto-b.color-secundario.p-4.mb-2
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            h2.mb-0.d-flex.ps-5 Si pudiéramos saber primero dónde estamos y hacia dónde vamos, podríamos juzgar mejor qué hacer y cómo hacerlo.<br><br>
+            p.move Abraham Lincoln
+            i.fas.fa-quote-right.mov
 
     
-    .row.justify-content-center.align-items-center
-      .col-lg-10.mb-5.mb-lg-0(data-aos="fade-right")
-        .bloque-texto-f.color-acento-contenido.pt-4.px-5
-          .bloque-texto-f__comillas
-            i.fas.fa-quote-left
-            i.fas.fa-quote-right
-          h4.bloque-texto-f__texto Si pudiéramos saber primero dónde estamos y hacia dónde vamos, podríamos juzgar mejor qué hacer y cómo hacerlo.<br><br>
-          p.mb-0 Abraham Lincoln
-
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img4.png')})`}"
@@ -184,29 +173,41 @@
         img(src='@/assets/curso/tema2/ia.svg', alt='')
         h2.mb-0.mx-2 Principios corporativos 
     
-    p.mb-4 Los principios corporativos se definen como el conjunto de valores, creencias y normas que regulan el funcionamiento de una empresa y guían su comportamiento en el mercado. Estos principios son cruciales para establecer una identidad clara y coherente que permee todas las áreas de la organización. Además, deben ser compartidos y comprendidos por todos los miembros de la empresa, ya que constituyen la base de su cultura organizacional y orientan la conducta de los colaboradores en su quehacer diario. 
-
-    .cajon.color-primario.bg.p-4.mb-4
-      p.mb-0 La cultura organizacional se construye a partir de estos principios, los cuales sirven como pilares fundamentales para las políticas y estrategias de la empresa. Esta cultura no solo influye en la manera en que los empleados realizan sus tareas, sino también en la percepción que los clientes, proveedores y la sociedad en general tienen de la organización. De esta forma, los principios corporativos se convierten en la norma de vida corporativa y en el soporte de la cultura empresarial, contribuyendo al éxito y sostenibilidad a largo plazo. 
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-8
+        p.mb-4 Los principios corporativos se definen como el conjunto de valores, creencias y normas que regulan el funcionamiento de una empresa y guían su comportamiento en el mercado. Estos principios son cruciales para establecer una identidad clara y coherente que permee todas las áreas de la organización. Además, deben ser compartidos y comprendidos por todos los miembros de la empresa, ya que constituyen la base de su cultura organizacional y orientan la conducta de los colaboradores en su quehacer diario. 
+        .cajon.color-primario.bg.p-4.mb-4
+          p.mb-0 La cultura organizacional se construye a partir de estos principios, los cuales sirven como pilares fundamentales para las políticas y estrategias de la empresa. Esta cultura no solo influye en la manera en que los empleados realizan sus tareas, sino también en la percepción que los clientes, proveedores y la sociedad en general tienen de la organización. De esta forma, los principios corporativos se convierten en la norma de vida corporativa y en el soporte de la cultura empresarial, contribuyendo al éxito y sostenibilidad a largo plazo. 
+        p.mb-4 La misión de la empresa, por su parte, se define como la declaración que precisa las acciones que la organización realiza en el mercado, diferenciándola de las demás. La misión describe el propósito esencial de la empresa y su razón de ser. Es una guía que orienta las actividades cotidianas de todos los colaboradores hacia la consecución de un objetivo común, integrando todas las áreas de la organización bajo una visión unificada. De esta manera, la misión no solo debe ser inspiradora, sino también práctica y funcional, facilitando un sendero de progreso tanto para la empresa como para sus empleados. 
+      .col-lg-4.col-md-9.col-9
+        img.mb-3(src="@/assets/curso/tema2/img11.png", alt="alt")
     
-    p.mb-4 La misión de la empresa, por su parte, se define como la declaración que precisa las acciones que la organización realiza en el mercado, diferenciándola de las demás. La misión describe el propósito esencial de la empresa y su razón de ser. Es una guía que orienta las actividades cotidianas de todos los colaboradores hacia la consecución de un objetivo común, integrando todas las áreas de la organización bajo una visión unificada. De esta manera, la misión no solo debe ser inspiradora, sino también práctica y funcional, facilitando un sendero de progreso tanto para la empresa como para sus empleados. 
     p.mb-4 Es fundamental que la misión de una empresa contemple dos aspectos clave:  
-
+      
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-primario.pri8.p-5.pp
-        .row.justify-content.mb-3
-          .col-lg-4.my-3
-            .bg-7.p-2
+        .row.justify-content
+          .col-lg-3
+            img.mb-3.img-a.img-t(src="@/assets/curso/tema2/img12.svg", alt="alt")
+          .col-lg-8
+            .titulo.mb-3
               h4.mb-0 Económico
-        p Debe estar alineado con la rentabilidad de la organiación, asegurando que las actividades realizadas generen valor económico.
+            .row.justify-content-center.align-items-center
+              .col-lg-12
+                p.mb-0 Debe estar alineado con la rentabilidad de la organiación, asegurando que las actividades realizadas generen valor económico.
       .col-md.tarjeta.color-primario.pri9.p-5.pp
-        .row.justify-content.mb-3
-          .col-lg-4.my-3
-            .bg-77.p-2
+        .row.justify-content
+          .col-lg-3
+            img.mb-3.img-a.img-t(src="@/assets/curso/tema2/img13.svg", alt="alt")
+          .col-lg-8
+            .titulo1.mb-3
               h4.mb-0 Social
-        p Debe reflejar el compromiso de la empresa con el desarrollo social, promoviendo prácticas responsables y sostenibles que contribuyan al bienestar de la comunidad.
-    
+            .row.justify-content-center.align-items-center
+              .col-lg-12
+                p.mb-0 Debe reflejar el compromiso de la empresa con el desarrollo social, promoviendo prácticas responsables y sostenibles que contribuyan al bienestar de la comunidad.
+
     p.mb-0 Este enfoque integral en la definición de la misión es esencial para construir una organización coherente, responsable y comprometida con el entorno en el que opera, lo que a su vez fortalecerá su posición competitiva y reputación en el mercado, logrando un impacto positivo tanto en el ámbito empresarial como en el social. 
+    
 </template>
 
 <script>
