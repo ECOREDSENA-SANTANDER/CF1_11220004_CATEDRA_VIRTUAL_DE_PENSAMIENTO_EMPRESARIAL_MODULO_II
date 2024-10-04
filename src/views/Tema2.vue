@@ -11,7 +11,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.png')})`}"
       )
-      .bloque-texto-g__texto.p-5
+      .bloque-texto-g__texto.p-4
         p.mb-0 De acuerdo con el Código de Comercio de Colombia, una empresa se define como “toda actividad económica organizada para la producción, transformación, comercialización, administración o custodia de bienes o para la prestación de servicios” (Decreto 410 de 1971, Art. 25). Proponiendo así, las bases para entender la empresa como una entidad estructurada que organiza sus recursos y capacidades para ofrecer bienes o servicios, bajo un marco legal y económico establecido. 
     
     p.mb-4 El proceso de estructuración de una empresa es una tarea esencial, que debe estar alineada con los objetivos estratégicos que guiarán su operación. Estos objetivos son fundamentales, ya que determinan: 
@@ -40,7 +40,7 @@
           h5 Figura 1.
           | Proceso estrategia empresarial 
 
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center(alt='La figura representa el proceso de estrategia empresarial, donde el establecimiento de la misión, visión y los valores organizacionales, sumado con, el desarrollo de un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio, tendrá como resultado, atracción y retención de clientes, mejora en la competitividad y mayor satisfacción en el mercado.')
           .col-lg-3.mb-2
             .bg4.p-3
               p.text-center.my-3 Establecer la misión, la visión y los valores organizacionales.
@@ -67,7 +67,7 @@
 
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4
-            img.img-a.img-t(src='@/assets/curso/tema2/img9.svg', alt='tema1')
+            img.img-a.img-t(src='@/assets/curso/tema2/img9.svg', alt='La figura presenta las áreas que intervienen en la definición de la estrategia empresarial: administración, finanzas, mercadeo, producción, e Investigación y Desarrollo (I+D), todas trabajando en conjunto para definir la estrategia empresarial.')
           .col-lg-5.mb-4
             .row.justify-content-center.align-items-center
               .col-lg-12.col-md-12.col-12
@@ -98,7 +98,7 @@
           p(numero="2" titulo="Elementos materiales") Se refieren a los recursos físicos como equipos, maquinaria, insumos e instalaciones, los cuales son esenciales para la producción y prestación de servicios. 
           p(numero="3" titulo="Capital intelectual") Consiste en activos intangibles que generan valor, tales como el conocimiento organizacional, la cultura empresarial y la imagen corporativa. Estos activos son cruciales para diferenciar a la empresa en el mercado y mantener su competitividad.
           p(numero="4" titulo="Gestión") Es el elemento transversal que asegura la racionalización y sistematización de las prácticas empresariales. La gestión efectiva integra todos los recursos de la empresa para alcanzar los objetivos estratégicos. 
-      .col-11.col-lg-5.col-md-10
+      .col-lg-5.col-md-9.col-9
         figure
           img(src="@/assets/curso/tema2/img3.png", alt="alt")
     
@@ -109,23 +109,25 @@
       h2 2.1 La planeación estratégica en la empresa 
   
     p.mb-4 La planeación estratégica es un proceso estructurado y sistematizado que parte desde la dirección de la empresa, cuyo propósito principal es implementar planes que faciliten el logro de los objetivos organizacionales. Este enfoque permite a las empresas no solo establecer una visión clara hacia el futuro, sino también diseñar estrategias eficaces que guíen las actividades diarias y aseguren la competitividad en el mercado. La planeación estratégica es esencial para la supervivencia y el crecimiento de cualquier organización, y su importancia radica en que proporciona una hoja de ruta que alinea a todos los miembros de la empresa en torno a un objetivo común.  
-    p.mb-4 La planeación estratégica es inherente a la dirección de la empresa. Los directivos, como responsables del rumbo de la organización, deben conocer profundamente este proceso y ser capaces de desarrollarlo con habilidad. La falta de una acción sistemática en la planeación estratégica puede llevar a la empresa por un camino de incertidumbre y potencial incompetencia. 
+    p.mb-5 La planeación estratégica es inherente a la dirección de la empresa. Los directivos, como responsables del rumbo de la organización, deben conocer profundamente este proceso y ser capaces de desarrollarlo con habilidad. La falta de una acción sistemática en la planeación estratégica puede llevar a la empresa por un camino de incertidumbre y potencial incompetencia. 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.mb-5.mb-lg-0
-        .bloque-texto-b.color-secundario.p-4.mb-2
-          .bloque-texto-b__texto
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-10.mb-lg-0
+        .bloque-texto-f.color-secundario.pt-4.px-5
+          .bloque-texto-f__comillas
             i.fas.fa-quote-left
-            h2.mb-0.d-flex.ps-5 Si pudiéramos saber primero dónde estamos y hacia dónde vamos, podríamos juzgar mejor qué hacer y cómo hacerlo.<br><br>
-            p.move Abraham Lincoln
-            i.fas.fa-quote-right.mov
-
+            i.fas.fa-quote-right
+          .row.justify-content-center.align-items-center.mb-2
+            .col-lg-11.mb-5.mb-lg-0
+              h3.bloque-texto-f__texto Si pudiéramos saber primero dónde estamos y hacia dónde vamos, podríamos juzgar mejor qué hacer y cómo hacerlo.
+              .bloque-texto-f__autor.mb-3
+                p.mb-0.text-right Abraham Lincoln
     
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img4.png')})`}"
       )
-      .bloque-texto-g__texto.p-5
+      .bloque-texto-g__texto.p-4
         p.mb-0 Cuando una empresa establece un plan de acción para administrar, dirigir y operar su negocio, con la intención de competir exitosamente y alcanzar los niveles de desempeño deseados, está llevando a cabo la ejecución de una estrategia. Cada organización desarrolla sus propias estrategias, y aunque los planes estratégicos puedan tener elementos en común, son únicos y específicos para cada empresa. Este proceso, que combina creatividad, análisis y liderazgo, permite a la organización adaptarse a su entorno cambiante y posicionarse de manera competitiva en el mercado. 
     
     
@@ -134,17 +136,17 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.
           | Proceso de planeación estratégica
-        img(src="@/assets/curso/tema2/img10.svg", alt="alt")
+        img(src="@/assets/curso/tema2/img10.svg", alt="La figura presenta cómo el proceso de planeación estratégica, combinado con habilidades de creatividad, análisis y liderazgo, permiten el posicionamiento competitivo de la organización.")
 
-    p.mb-5 La planeación estratégica en una empresa es el medio a través del cual la alta gerencia define el rumbo de la organización, los caminos a seguir y las acciones a implementar para cumplir con la misión, la visión y los objetivos propuestos. Este proceso parte de un análisis exhaustivo del entorno interno y externo, permitiendo evaluar la situación actual de la empresa y su nivel de competitividad. Al anticipar tendencias futuras y posibles escenarios, la planeación estratégica permite a la empresa prepararse para los desafíos y aprovechar las oportunidades que se presenten. 
+    p.mb-4 La planeación estratégica en una empresa es el medio a través del cual la alta gerencia define el rumbo de la organización, los caminos a seguir y las acciones a implementar para cumplir con la misión, la visión y los objetivos propuestos. Este proceso parte de un análisis exhaustivo del entorno interno y externo, permitiendo evaluar la situación actual de la empresa y su nivel de competitividad. Al anticipar tendencias futuras y posibles escenarios, la planeación estratégica permite a la empresa prepararse para los desafíos y aprovechar las oportunidades que se presenten. 
 
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-5.col-md-9.col-9.mb-4
         img.img-a.img-t(src='@/assets/curso/tema2/img5.png', alt='tema1')
       .col-lg-7.col-md-12.col-12.mb-4
         p.mb-4 La planeación estratégica debe responder a interrogantes fundamentales para la	organización, tales como:  
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-center
           .col-lg-12.col-md-12.col-12
             ul.lista-ul.ps-0
               li.d-flex.mb-1
@@ -172,14 +174,14 @@
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/tema2/ia.svg', alt='')
         h2.mb-0.mx-2 Principios corporativos 
-    
+
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-8
         p.mb-4 Los principios corporativos se definen como el conjunto de valores, creencias y normas que regulan el funcionamiento de una empresa y guían su comportamiento en el mercado. Estos principios son cruciales para establecer una identidad clara y coherente que permee todas las áreas de la organización. Además, deben ser compartidos y comprendidos por todos los miembros de la empresa, ya que constituyen la base de su cultura organizacional y orientan la conducta de los colaboradores en su quehacer diario. 
         .cajon.color-primario.bg.p-4.mb-4
           p.mb-0 La cultura organizacional se construye a partir de estos principios, los cuales sirven como pilares fundamentales para las políticas y estrategias de la empresa. Esta cultura no solo influye en la manera en que los empleados realizan sus tareas, sino también en la percepción que los clientes, proveedores y la sociedad en general tienen de la organización. De esta forma, los principios corporativos se convierten en la norma de vida corporativa y en el soporte de la cultura empresarial, contribuyendo al éxito y sostenibilidad a largo plazo. 
         p.mb-4 La misión de la empresa, por su parte, se define como la declaración que precisa las acciones que la organización realiza en el mercado, diferenciándola de las demás. La misión describe el propósito esencial de la empresa y su razón de ser. Es una guía que orienta las actividades cotidianas de todos los colaboradores hacia la consecución de un objetivo común, integrando todas las áreas de la organización bajo una visión unificada. De esta manera, la misión no solo debe ser inspiradora, sino también práctica y funcional, facilitando un sendero de progreso tanto para la empresa como para sus empleados. 
-      .col-lg-4.col-md-9.col-9
+      .col-lg-4.col-md-7.col-7
         img.mb-3(src="@/assets/curso/tema2/img11.png", alt="alt")
     
     p.mb-4 Es fundamental que la misión de una empresa contemple dos aspectos clave:  

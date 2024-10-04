@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura presenta la síntesis del componente formativo y las temáticas abordadas, desde la conceptualización del proyecto, la empresa, incluyendo conocimientos asociados a competencia y competitividad, hasta la estructura del proyecto en la empresa.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -90,7 +90,7 @@
             .lista-ol--cuadro__vineta
               span 8
             | Compromiso. 
-      .col-lg-5.mb-4 
+      .col-lg-5.col-md-9.col-9.mb-4 
         img.img-a.img-t(src='@/assets/curso/tema4/5.svg', alt='')
     
     .ia.mb-5(data-aos="fade-right")
@@ -99,7 +99,7 @@
         h2.mb-0.mx-2 Visión 
 
     .row.justify-content-center.align-items-center
-      .col-lg-4.mb-4 
+      .col-lg-4.col-md-7.col-7.mb-4 
         img.img-a.img-t(src='@/assets/curso/tema4/6.svg', alt='')
       .col-lg-8.mb-4
         p.mb-4 La visión establece el estado futuro al que aspira llegar la organización. Debe ser ambiciosa, inspiradora y estar orientada al crecimiento. La visión debe guiar a la empresa hacia un futuro deseado, siendo coherente con la misión y los valores. Al definirla, es importante tener en cuenta tanto los factores internos de la organización como las oportunidades y amenazas del entorno externo. Una visión sólida inspira a los colaboradores y establece un rumbo claro para la organización. 
@@ -186,7 +186,7 @@
             .lista-ol--cuadro__vineta
               span 4
             | Puesta en funcionamiento de los valores definidos. 
-      .col-lg-3.mb-4 
+      .col-lg-3.col-md-9.col-9.mb-4 
         img.img-a.img-t(src='@/assets/curso/tema4/7.svg', alt='')
 
     .ia.mb-4(data-aos="fade-right")
@@ -239,7 +239,7 @@
         img(src='@/assets/curso/tema2/ia.svg', alt='')
         h2.mb-0.mx-2 Definición del producto y/o servicio 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
         p.mb-3 Para comprender adecuadamente lo que es un producto y un servicio, vale la pena mirar sus diferencias más relevantes:  
         .tarjeta--container.row.mb-4
@@ -247,54 +247,54 @@
             p.mb-0 Los #[b productos] se caracterizan por su tangibilidad, se pueden tocar y son perceptibles por los demás sentidos, pudiendo cuantificarse por ser algo físico.
           .col-md.tarjeta.color-primario.pri9.p-5.pp
             p.mb-0 Los #[b servicios] son intangibles, lo que implica que antes de que se compran, no se puede gustar, palpar, oír, ver u olfatear; otro aspecto de los servicios tiene que ver con que se producen y consumen a la vez, prestando un beneficio como resultado de su servicio. 
-        p.mb-4En todo proyecto productivo, se debe hacer una descripción exacta del producto o servicio, además de los subproductos que se pretendan elaborar. Existen dos tipos de productos o servicios: 
+        p.mb-4 En todo proyecto productivo, se debe hacer una descripción exacta del producto o servicio, además de los subproductos que se pretendan elaborar. Existen dos tipos de productos o servicios: 
         .cajon.color-primario.bg.p-3
           h4.mb-2 No diferenciado: 
           p.mb-3 Los consumidores, no diferencian el producto o servicio de un proveedor con otro, por lo tanto, no estarán decididos a cancelar un precio diferente por este. 
           h4.mb-2 Diferenciado:
           p.mb-0 Los consumidores, encuentran diferencias significativas de un producto o servicio sobre los demás, por lo tanto, están dispuestos a cancelar un precio diferente. 
-      .col-lg-4.col-md-9.col-9
+      .col-lg-4.col-md-7.col-7
         img(src='@/assets/curso/tema4/11.png', alt='')
     
     p.mb-4 En la descripción del producto o servicio, también se deben determinar características como:  
     
     SlyderF.custom.mb-5(columnas="col-md-6 col-xl-3 col-12")
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/12.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Calidad.
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/13.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Empaque.
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/14.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Propiedades tecnológicas. 
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/15.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Sabor.
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/16.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Consistencia. 
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/17.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Vida útil. 
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/18.svg", alt="alt").img100.m-auto
         h5.text-center.mb-5 Color.
-      .tarjeta.tarjeta--slyder.b1.p-4
+      .tarjeta.tarjeta--slyder.b1.p-5
         .row.justify-content-center.mb-0
           .col-5
             img.img-a.img-t.my-4(src="@/assets/curso/tema4/19.svg", alt="alt").img100.m-auto
@@ -321,7 +321,7 @@
             p.mb-0 El mercado objetivo al cual se pretende llegar. 
           li.d-flex.mb-1
             i.fas.fa-plus
-            p.mb-0 El tipo de publicidad que se va a utilizar para alcanzar lo propuesto en el marketing.
+            p.mb-0 El tipo de publicidad que se va a utilizar para alcanzar lo propuesto en el #[em marketing].
 
     separador
     #t_1_1.titulo-segundo.color-primario
@@ -334,7 +334,7 @@
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 6.
           | Definición del alcance de un proyecto 
-        img.img-a.img-t.mb-4(src='@/assets/curso/tema4/21.svg', alt='')
+        img.img-a.img-t.mb-4(src='@/assets/curso/tema4/21.svg', alt='La figura presenta el proceso para la definición del alcance de un proyecto, así: marcar los objetivos, identificar las limitaciones u obstáculos, conocer las expectativas, elaborar un calendario de hitos e implementar los cambios necesarios.')
         p.mb-4 #[b Nota.] Adaptada de https://www.iep-edu.com.co/como-definir-el-alcance-de-un-proyecto/ 
     
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
@@ -342,7 +342,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/22.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-5 Cuando se plantea el alcance de un proyecto, es importante que la descripción sea lo más concisa y directa posible, asegurándose que el documento generado contenga todos los puntos para que el objetivo pueda ser alcanzable; esto implica la garantía de que los procesos necesarios han sido integrados, ya que, el objetivo primordial del alcance del proyecto es definir y precisar un control sobre lo que se incluye y no se incluye dentro del proyecto. La principal salida al definir el alcance del proyecto es propiamente el Enunciado del Alcance, en donde se describe los entregables del proyecto, el proceso de gestión de entregables y las fronteras del proyecto. 
+        p.mb-5 Cuando se plantea el alcance de un proyecto, es importante que la descripción sea lo más concisa y directa posible, asegurándose que el documento generado contenga todos los puntos para que el objetivo pueda ser alcanzable; esto implica la garantía de que los procesos necesarios han sido integrados, ya que, el objetivo primordial del alcance del proyecto es definir y precisar un control sobre lo que se incluye, y no se incluye dentro del proyecto. La principal salida al definir el alcance del proyecto es propiamente el “Enunciado del alcance”, en donde se describe los entregables del proyecto, el proceso de gestión de entregables y las fronteras del proyecto. 
 
     p.mb-4 A continuación, se presenta un ejemplo de una declaración del alcance de un proyecto dentro de una empresa: 
 

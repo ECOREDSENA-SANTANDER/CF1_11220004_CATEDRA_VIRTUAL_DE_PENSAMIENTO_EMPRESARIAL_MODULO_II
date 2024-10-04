@@ -131,16 +131,35 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Conceptualización del proyecto',
+      referencia:
+        'Gallardo, D. y Maldonado, V. (2016). Proyectos organizacionales: (1 ed.). (pp. 51–61). Editorial Maipue.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/77336?page=10',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.1. Identificación y planteamiento del problema',
+      referencia:
+        'Innpulsa Colombia. Paso 1: Definir el problema - #EmprenderConMétodo: 5 pasos para emprender. [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=a732oiYiux4',
+    },
+    {
+      tema: '2.1. La planeación estratégica en la empresa.',
+      referencia:
+        'Quintero, I y Matiz, F. (2019). Pensamiento estratégico: concepto, impulsores y práctica. (pp. 57–89). Alfaomega.',
+      tipo: 'Libro',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/library/publication/pensamiento-estrategico-concepto-impulsores-y-practica',
+    },
+    {
+      tema: '3. Competencia y competitividad',
+      referencia:
+        'Fonseca Z., R. (2015). Competitividad, la clave del éxito empresarial. (pp. 9–29). Alfaomega.',
+      tipo: 'Libro',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/competitividad?location=23',
     },
   ],
   glosario: [
@@ -162,7 +181,7 @@ export default {
     {
       termino: 'Innovación',
       significado:
-        'La innovación es la aplicación de nuevas técnicas, procesos productivos, productos o servicios para el mercado. Las innovaciones exitosas pueden darse: al producir los mismos bienes, pero con la utilización de menos recursos, o al producir bienes nuevos o de mejor calidad.',
+        'es la aplicación de nuevas técnicas, procesos productivos, productos o servicios para el mercado. Las innovaciones exitosas pueden darse: al producir los mismos bienes, pero con la utilización de menos recursos, o al producir bienes nuevos o de mejor calidad.',
     },
     {
       termino: 'Plan de mejoramiento',
@@ -201,6 +220,24 @@ export default {
         'Salazar, I.P. (2010). Guía Práctica para la identificación, formulación y evaluación de proyectos. Bogotá. Editorial Universidad del Rosario.',
       link: '',
     },
+    {
+      referencia:
+        'Atlassian – The work stream. (s.f.). Cómo puede salvarte el día la gestión del alcance del proyecto.',
+      link:
+        'https://www.atlassian.com/es/work-management/project-management/project-scope',
+    },
+    {
+      referencia:
+        'Instituto Europeo de Posgrados - IEP. (2022). Cómo definir el alcance de un proyecto paso a paso.',
+      link:
+        'https://www.iep-edu.com.co/como-definir-el-alcance-de-un-proyecto/',
+    },
+    {
+      referencia:
+        'Rincón-Guio, C. y Jaramillo Castaño, O. (2017). Proyectos, gestión y éxito. Una revisión de la literatura. CINA Research. 1. 34.',
+      link:
+        'https://www.researchgate.net/publication/321914745_Proyectos_gestion_y_exito_Una_revision_de_la_literatura',
+    },
   ],
   creditos: [
     {
@@ -208,13 +245,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Regional Santander - Centro Agroturístico',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -224,25 +261,12 @@ export default {
         {
           nombre: 'Jaime Cuellar',
           cargo: 'Experto temático',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Santiago Lozada Garcés',
-          cargo: 'Líder línea de producción',
-          centro:
-            'Regional Santander - Centro Industrial de Mantenimiento Integral',
-        },
-        {
-          nombre: 'Rosa Elvia Quintero Guasca',
-          cargo: 'Asesora Pedagógica',
-          centro:
-            'Regional Santander - Centro Industrial de Mantenimiento Integral',
-        },
-        {
-          nombre: 'Luis Orlando Beltrán Vargas',
-          cargo: 'Asesor Pedagógico',
-          centro:
-            'Regional Santander - Centro Industrial de Mantenimiento Integral',
+          nombre: 'Diana Lizeth Lozada Díaz',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -252,17 +276,17 @@ export default {
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
           cargo: 'Diseñadora de contenidos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Pedro Alonso Bolivar Gonzalez',
-          cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Regional Santander - Centro Agroturístico',
+          cargo: 'Desarrollador <em>fullstack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -271,13 +295,13 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validador de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Diana Lizeth Lozada Díaz',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

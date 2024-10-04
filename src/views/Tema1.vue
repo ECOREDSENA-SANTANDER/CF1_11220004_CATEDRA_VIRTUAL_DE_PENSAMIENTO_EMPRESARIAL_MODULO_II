@@ -8,12 +8,12 @@
       h1 Conceptualización del proyecto 
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.col-md-9.col-9.mb-4
+      .col-lg-4.col-md-7.col-9.mb-4
         img.img-a.img-t(src='@/assets/curso/tema1/img1.png', alt='tema1')
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 Cuando se busca resolver un problema, satisfacer una necesidad o suplir la carencia de un bien o servicio, surge la posibilidad de crear una empresa o negocio. Esta iniciativa tiene como propósito no solo atender la situación identificada, sino también obtener un ingreso como compensación por la prestación del servicio o la elaboración del producto. A partir de este requerimiento, se establece la necesidad de estructurar la idea concebida a través de la formulación de un proyecto productivo.
-        p.mb-3 Según CINA RESEARCH (2018), “Un proyecto ha sido creado para satisfacer una necesidad y su desarrollo implica una ejecución adecuada. El intentar establecer el éxito desde la satisfacción de la necesidad o la ejecución del mismo es el punto de partida…”  
-        p.mb-3 Respecto de la conceptualización de un proyecto productivo SERCA Corporativo (2013) lo define de la siguiente manera: 
+        p.mb-3 Según CINA RESEARCH (2018), “un proyecto ha sido creado para satisfacer una necesidad y su desarrollo implica una ejecución adecuada. El intentar establecer el éxito desde la satisfacción de la necesidad o la ejecución del mismo es el punto de partida…”  
+        p.mb-4 Respecto de la conceptualización de un proyecto productivo SERCA Corporativo (2013) lo define de la siguiente manera: 
         .cajon.color-primario.bg.p-4
           p.mb-0 “Un proyecto se puede crear en base a una necesidad que se quiere cubrir o en alguna idea específica. Para que se considere productivo, debe cubrir esta necesidad o idea de la mejor manera y obtener resultados medibles y que tengan un impacto positivo. Un proyecto es una planificación de actividades interrelacionadas entre sí que tienen un fin en común. Algunos aspectos importantes que se deben considerar en un proyecto son: el presupuesto que se requiere para llevarlo a cabo y el lapso en que se va a desarrollar, entre algunos otros. Los objetivos de los proyectos productivos son el de buscar rentabilidad económica y obtener ganancias”.  
     
@@ -79,7 +79,7 @@
       .tarjeta.color-acento-contenido.p-3(x="67.4%" y="63.3%" numero="")
         p.text-black Delimita las fuentes de financiamiento o inversión que harán posible la realización del proyecto. 
       
-    p.mb-5 Responder adecuadamente a estas preguntas permite evaluar si la idea inicial es viable, y si se ajusta a los recursos y tiempos disponibles. La delimitación del problema debe considerar varios factores fundamentales, tales como: 
+    p.mb-4 Responder adecuadamente a estas preguntas permite evaluar si la idea inicial es viable, y si se ajusta a los recursos y tiempos disponibles. La delimitación del problema debe considerar varios factores fundamentales, tales como: 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11

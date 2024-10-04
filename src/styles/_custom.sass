@@ -130,7 +130,7 @@
 
 .ia
   img
-    width: 30px
+    width: 40px
   h2
     color: black
   &::after   
@@ -140,6 +140,7 @@
     width: 370px
     background-color: #FA6D61
     border-radius: 50px
+
 
 .pri8
   background: url('../assets/curso/tema2/img77.png')
@@ -190,8 +191,9 @@
 
 .tarjeta--slyder
   background: url('../assets/curso/tema3/fon.svg')
-  background-size: 100%
+  background-size: 100% 100%
   background-repeat: no-repeat
+  background-position: cover
 
 
 .bg7
@@ -288,8 +290,9 @@
 
 .tarjeta--slyder.b1
   background: url('../assets/curso/tema4/fond.png')
-  background-size: 100%
+  background-size: 100% 100%
   background-repeat: no-repeat
+  background-position: cover
 
 .th
   background-color: #F6F6F6
@@ -332,23 +335,38 @@
     width: 130%
     max-width: 130%
 
-.mov
-  position: absolute
-  left: 80%
 
 .move
   position: absolute
   left: 50%
-  font-size: 12px
+  font-size: 18px
 
-.bloque-texto-b.color-secundario:before 
+.bloque-texto-f.color-secundario:before 
     background-color: #C4D8F6
 
-.bloque-texto-b:before 
+
+.bloque-texto-f:before 
     content: ''
     display: block
     position: absolute
-    top: 7%
-    bottom: -18px
-    left: 13%
-    right: 50px
+    top: -17px
+    left: 0px
+    right: 0px
+    bottom: 56px
+
+.text-right
+  text-align: right
+
+.bloque-texto-f__comillas i:first-of-type 
+    margin-right: 15px
+    top: 9px
+    left: 27px
+    transform: translate(-50%, -50%)
+
+.bloque-texto-f__comillas i:last-of-type 
+    margin-left: 15px
+    vertical-align: text-top
+    top: calc(100% - 50px)
+    right: 37px
+    margin: -49px
+    transform: translate(-50%, -50%)
