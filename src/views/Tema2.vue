@@ -40,19 +40,19 @@
           h5 Figura 1.
           | Proceso estrategia empresarial 
 
-        .row.justify-content-center.align-items-center(alt='La figura representa el proceso de estrategia empresarial, donde el establecimiento de la misión, visión y los valores organizacionales, sumado con, el desarrollo de un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio, tendrá como resultado, atracción y retención de clientes, mejora en la competitividad y mayor satisfacción en el mercado.')
+        .row.justify-content-center.align-items-center
           .col-lg-3.mb-2
-            .bg4.p-3
+            .bg4.p-3(alt='La figura representa el proceso de estrategia empresarial, donde el establecimiento de la misión, visión y los valores organizacionales, sumado con, el desarrollo de un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio, tendrá como resultado, atracción y retención de clientes, mejora en la competitividad y mayor satisfacción en el mercado.')
               p.text-center.my-3 Establecer la misión, la visión y los valores organizacionales.
           .col-lg-1.mb-2
             .bgt1
           .col-lg-3.mb-2.ps-lg-2
-            .bg4.p-3
+            .bg4.p-3(alt='La figura representa el proceso de estrategia empresarial, donde el establecimiento de la misión, visión y los valores organizacionales, sumado con, el desarrollo de un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio, tendrá como resultado, atracción y retención de clientes, mejora en la competitividad y mayor satisfacción en el mercado.')
               p.text-center.mb-0.my-2 Desarrollar un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio.
           .col-lg-1.mb-2
             .bgt2
           .col-lg-4.mb-2.ps-lg-2
-            .bg4.p-3
+            .bg4.p-3(alt='La figura representa el proceso de estrategia empresarial, donde el establecimiento de la misión, visión y los valores organizacionales, sumado con, el desarrollo de un plan de acción que defina cómo se va a administrar, dirigir y operar el negocio, tendrá como resultado, atracción y retención de clientes, mejora en la competitividad y mayor satisfacción en el mercado.')
               p.text-center.mb-2.my-3 - Atracción y retención de clientes.
               p.text-center.mb-1 - Mejora en la competitividad.
               p.text-center.mb-1 - Mayor satisfacción en el mercado.
