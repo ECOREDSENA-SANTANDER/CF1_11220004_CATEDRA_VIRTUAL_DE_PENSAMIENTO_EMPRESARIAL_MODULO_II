@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se presenta una síntesis de las temáticas abordadas en el componente formativo, que profundiza en la formulación y estructuración de proyectos alineados con la planeación estratégica de la empresa. Abarca también la identificación y planteamiento del problema del proyecto, la evaluación de la competencia y la estructuración del proyecto para asegurar su alcance y efectividad. El componente enfatiza en la importancia de la competitividad y las barreras de entrada y salida para tomar decisiones informadas y garantizar la sostenibilidad y éxito empresarial. 
+    p.mb-5(data-aos="fade-left") A continuación, se presenta una síntesis de las temáticas abordadas en el componente formativo, que profundiza en la formulación y estructuración de proyectos alineados con la planeación estratégica de la empresa. Abarca también la identificación y planteamiento del problema del proyecto, la evaluación de la competencia y la estructuración del proyecto para asegurar su alcance y efectividad. El componente enfatiza en la importancia de la competitividad y las barreras de entrada y salida para tomar decisiones informadas y garantizar la sostenibilidad y éxito empresarial. 
 
     .row.justify-content-center
       .col-lg-12.mb-5
