@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="44" viewBox="0 0 50 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="50" height="44" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Cuadrícula_de_repetición_1" data-name="Cuadrícula de repetición 1" clip-path="url(#clip-path)">
+    <g id="Grupo_1101387" data-name="Grupo 1101387" transform="translate(-180.051 -5436.988)">
+      <g id="Grupo_1100879" data-name="Grupo 1100879" transform="translate(134.051 4882.887)">
+        <rect id="Rectángulo_402862" data-name="Rectángulo 402862" width="29" height="44" rx="14.5" transform="translate(59 554.101)" fill="#fa6d61"/>
+        <circle id="Elipse_11522" data-name="Elipse 11522" cx="13" cy="13" r="13" transform="translate(46 569.101)" fill="#007dfe"/>
+        <circle id="Elipse_11523" data-name="Elipse 11523" cx="9.5" cy="9.5" r="9.5" transform="translate(77 558.101)" fill="#ffbe01"/>
+      </g>
+    </g>
+  </g>
+</svg>
