@@ -16,7 +16,7 @@
         figure(data-aos="fade-right").py-2
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2l8-PFOrAFY?si=kt1M8v60mXNGhPUV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption(data-aos="fade-left") Nota. Adaptado de Escalado de falda.
+          figcaption(data-aos="fade-left") Video. Gestión Estratégica de Proyectos
 
 
 </template>
