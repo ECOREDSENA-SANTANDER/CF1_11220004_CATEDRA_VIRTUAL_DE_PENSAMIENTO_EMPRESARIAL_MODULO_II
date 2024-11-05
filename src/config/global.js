@@ -136,7 +136,7 @@ export default {
         'Gallardo, D. y Maldonado, V. (2016). Proyectos organizacionales: (1 ed.). (pp. 51–61). Editorial Maipue.',
       tipo: 'Libro',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/77336?page=10',
+        'https://bibliotecaees1boulogne.wordpress.com/wp-content/uploads/2020/06/proyectos-organizacionales-gallardo-delia-maldonado-viv.pdf',
     },
     {
       tema: '1.1. Identificación y planteamiento del problema',
@@ -151,7 +151,7 @@ export default {
         'Quintero, I y Matiz, F. (2019). Pensamiento estratégico: concepto, impulsores y práctica. (pp. 57–89). Alfaomega.',
       tipo: 'Libro',
       link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/library/publication/pensamiento-estrategico-concepto-impulsores-y-practica',
+        'https://books.google.es/books?hl=es&lr=&id=DH54EAAAQBAJ&oi=fnd&pg=PA9&dq=Quintero,+I+y+Matiz,+F.+(2019).+Pensamiento+estrat%C3%A9gico:+concepto,+impulsores+y+pr%C3%A1ctica.+(pp.+57%E2%80%9389).+Alfaomega&ots=Bkvjrp5H-h&sig=5h2Ms7IhRJWVgwwoLYz5gJsnXJg#v=onepage&q&f=false',
     },
     {
       tema: '3. Competencia y competitividad',
@@ -159,7 +159,7 @@ export default {
         'Fonseca Z., R. (2015). Competitividad, la clave del éxito empresarial. (pp. 9–29). Alfaomega.',
       tipo: 'Libro',
       link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/competitividad?location=23',
+        'https://books.google.es/books?hl=es&lr=&id=8tFxEAAAQBAJ&oi=fnd&pg=PA1&dq=Fonseca+Z.,+R.+(2015).+Competitividad,+la+clave+del+%C3%A9xito+empresarial.+(pp.+9%E2%80%9329).+Alfaomega&ots=AFSzrOcxQU&sig=lfIiPTUrDyU_myKhqFgORCLBXFA#v=onepage&q&f=false',
     },
   ],
   glosario: [

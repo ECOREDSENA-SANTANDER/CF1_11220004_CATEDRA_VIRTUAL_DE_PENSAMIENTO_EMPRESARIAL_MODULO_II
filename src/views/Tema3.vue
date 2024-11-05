@@ -157,7 +157,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-0
+        .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5.
           | Análisis de las barreras de entrada y de salida al mercado 
     
