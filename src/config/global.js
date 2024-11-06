@@ -141,7 +141,7 @@ export default {
     {
       tema: '1.1. Identificación y planteamiento del problema',
       referencia:
-        'Innpulsa Colombia. Paso 1: Definir el problema - #EmprenderConMétodo: 5 pasos para emprender. [Video]. Youtube.',
+        'Innpulsa Colombia. Paso 1: Definir el problema - #EmprenderConMétodo: 5 pasos para emprender. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=a732oiYiux4',
     },
